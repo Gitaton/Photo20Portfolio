@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+    color: darkslategray;
+}
+
+.NavBar {
+    margin: 0;
+    padding-top: 4%;
+    display: inline-block;
+    width: 100%;
+}
+
+.center {
+    margin-top: 0;
+    float: right;
+    margin-right: 5%;
+}
+
+.NavBar .NavLogo {
+    float:left;
+    margin: 0px;
+    padding: 0px 4% 0px 14%;
+}
+
+.NavBar .NavItem {
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: text-decoration 2s;
+    transition: font-size 0.5s;
+}
+
+.NavBar .NavItem:hover {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.HeroText {
+    padding-top: 5%;
+    padding-left: 60%;
+    font-size: 300%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.HeroText h5 {
+    margin-left: 18%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top {
+    background-image: url("HERO_IMAGE.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.section {
+    height: 1000px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.GridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.GridItem {
+    font: 100;
+}
+
+.post {
+    /*display: flex;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.smaller {
+    font-size: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.middle {
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
